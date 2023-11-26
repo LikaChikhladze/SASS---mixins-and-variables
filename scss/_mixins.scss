@@ -1,0 +1,16 @@
+// background image header
+
+
+@mixin bg-image ($repeat, $position, $size) {
+  background-repeat: $repeat;
+  background-position: $position;
+  background-size: $size;
+}
+
+// display flex 
+
+@mixin d-flex ($flex, $justify, $align) {
+  display: $flex;
+  justify-content: $justify;
+  align-items: $align;
+}
